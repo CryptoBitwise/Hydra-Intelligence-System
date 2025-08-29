@@ -1,0 +1,147 @@
+{
+  "stats": {
+    "total_discoveries": 12,
+    "critical_threats": 0,
+    "high_threats": 0,
+    "competitors": [
+      "news.ycombinator.com",
+      "reddit.com",
+      "test.com"
+    ],
+    "last_updated": "2025-08-29T03:09:09.694010"
+  },
+  "intelligence": [
+    {
+      "id": 12,
+      "timestamp": "2025-08-29T02:51:17.723914",
+      "head": "TechRadar",
+      "competitor": "reddit.com",
+      "discovery": "Tech stack changes: 0 new, 0 removed",
+      "threat_level": "low",
+      "confidence": 0.9,
+      "data": "{\"significant_changes\": false, \"new_technologies\": [], \"removed_technologies\": [], \"category_shifts\": [], \"risk_assessment\": \"\", \"opportunity_assessment\": \"\"}",
+      "status": "new"
+    },
+    {
+      "id": 11,
+      "timestamp": "2025-08-29T02:51:17.716429",
+      "head": "JobSpy",
+      "competitor": "reddit.com",
+      "discovery": "Hiring pattern change detected: ",
+      "threat_level": "low",
+      "confidence": 0.85,
+      "data": "{\"significant_changes\": false, \"new_departments\": [], \"tech_stack_changes\": [], \"expansion_locations\": [], \"hiring_velocity\": 0, \"strategic_indicators\": [], \"estimated_burn_rate\": 0}",
+      "status": "new"
+    },
+    {
+      "id": 10,
+      "timestamp": "2025-08-29T02:51:17.043860",
+      "head": "TechRadar",
+      "competitor": "news.ycombinator.com",
+      "discovery": "Tech stack changes: 0 new, 0 removed",
+      "threat_level": "low",
+      "confidence": 0.9,
+      "data": "{\"significant_changes\": false, \"new_technologies\": [], \"removed_technologies\": [], \"category_shifts\": [], \"risk_assessment\": \"\", \"opportunity_assessment\": \"\"}",
+      "status": "new"
+    },
+    {
+      "id": 9,
+      "timestamp": "2025-08-29T02:51:17.035829",
+      "head": "JobSpy",
+      "competitor": "news.ycombinator.com",
+      "discovery": "Hiring pattern change detected: ",
+      "threat_level": "low",
+      "confidence": 0.85,
+      "data": "{\"significant_changes\": false, \"new_departments\": [], \"tech_stack_changes\": [], \"expansion_locations\": [], \"hiring_velocity\": 0, \"strategic_indicators\": [], \"estimated_burn_rate\": 0}",
+      "status": "new"
+    },
+    {
+      "id": 8,
+      "timestamp": "2025-08-29T02:50:08.840440",
+      "head": "TechRadar",
+      "competitor": "reddit.com",
+      "discovery": "Tech stack changes: 0 new, 0 removed",
+      "threat_level": "low",
+      "confidence": 0.9,
+      "data": "{\"significant_changes\": false, \"new_technologies\": [], \"removed_technologies\": [], \"category_shifts\": [], \"risk_assessment\": \"\", \"opportunity_assessment\": \"\"}",
+      "status": "new"
+    },
+    {
+      "id": 7,
+      "timestamp": "2025-08-29T02:50:08.833726",
+      "head": "JobSpy",
+      "competitor": "reddit.com",
+      "discovery": "Hiring pattern change detected: ",
+      "threat_level": "low",
+      "confidence": 0.85,
+      "data": "{\"significant_changes\": false, \"new_departments\": [], \"tech_stack_changes\": [], \"expansion_locations\": [], \"hiring_velocity\": 0, \"strategic_indicators\": [], \"estimated_burn_rate\": 0}",
+      "status": "new"
+    },
+    {
+      "id": 6,
+      "timestamp": "2025-08-29T02:50:08.231498",
+      "head": "TechRadar",
+      "competitor": "news.ycombinator.com",
+      "discovery": "Tech stack changes: 0 new, 0 removed",
+      "threat_level": "low",
+      "confidence": 0.9,
+      "data": "{\"significant_changes\": false, \"new_technologies\": [], \"removed_technologies\": [], \"category_shifts\": [], \"risk_assessment\": \"\", \"opportunity_assessment\": \"\"}",
+      "status": "new"
+    },
+    {
+      "id": 5,
+      "timestamp": "2025-08-29T02:50:08.221364",
+      "head": "JobSpy",
+      "competitor": "news.ycombinator.com",
+      "discovery": "Hiring pattern change detected: ",
+      "threat_level": "low",
+      "confidence": 0.85,
+      "data": "{\"significant_changes\": false, \"new_departments\": [], \"tech_stack_changes\": [], \"expansion_locations\": [], \"hiring_velocity\": 0, \"strategic_indicators\": [], \"estimated_burn_rate\": 0}",
+      "status": "new"
+    },
+    {
+      "id": 4,
+      "timestamp": "2025-08-29T02:37:12.937408",
+      "head": "TEST",
+      "competitor": "test.com",
+      "discovery": "Test discovery",
+      "threat_level": "low",
+      "confidence": 0.5,
+      "data": "{\"test\": true}",
+      "status": "new"
+    },
+    {
+      "id": 3,
+      "timestamp": "2025-08-29T02:33:09.623979",
+      "head": "TEST",
+      "competitor": "test.com",
+      "discovery": "Test discovery",
+      "threat_level": "low",
+      "confidence": 0.5,
+      "data": "{\"test\": true}",
+      "status": "new"
+    },
+    {
+      "id": 2,
+      "timestamp": "2025-08-29T02:24:51.592743",
+      "head": "TEST",
+      "competitor": "test.com",
+      "discovery": "Test discovery",
+      "threat_level": "low",
+      "confidence": 0.5,
+      "data": "{\"test\": true}",
+      "status": "new"
+    },
+    {
+      "id": 1,
+      "timestamp": "2025-08-29T02:22:59.056138",
+      "head": "TEST",
+      "competitor": "test.com",
+      "discovery": "Test discovery",
+      "threat_level": "low",
+      "confidence": 0.5,
+      "data": "{\"test\": true}",
+      "status": "new"
+    }
+  ]
+}

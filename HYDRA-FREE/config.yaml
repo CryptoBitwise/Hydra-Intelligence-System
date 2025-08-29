@@ -1,0 +1,28 @@
+# HYDRA Configuration - NO SUBSCRIPTIONS NEEDED!
+
+competitors:
+  - competitor1.com
+  - competitor2.com
+  - competitor3.com
+
+heads:
+  - PriceWatch
+  - JobSpy
+  - TechRadar
+  - SocialPulse
+  - PatentHawk
+  - AdTracker
+
+# Optional: Use Bright Data while you have credits
+use_bright_data: false
+bright_data_key: ${BRIGHT_DATA_KEY}
+
+# Optional: Alerts
+alert_webhook: ${SLACK_WEBHOOK}
+
+# Scraping config
+scraper:
+  timeout: 30
+  retries: 3
+  use_cache: true
+
