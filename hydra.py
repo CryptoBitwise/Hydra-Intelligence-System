@@ -185,11 +185,13 @@ def serve(port):
             background: rgba(255,255,255,0.15);
             padding: 25px 15px;
             border-radius: 15px;
-            transition: transform 0.3s;
+            transition: all 0.3s ease;
+            animation: pulse 3s infinite;
         }
         .stat-card:hover {
             transform: translateY(-5px);
             background: rgba(255,255,255,0.2);
+            animation: none;
         }
         .stat-number {
             font-size: 2.5em;
@@ -252,6 +254,26 @@ def serve(port):
         @keyframes slideIn {
             from { transform: translateX(-20px); opacity: 0; }
             to { transform: translateX(0); opacity: 1; }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .discovery-item {
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        .intel-item {
+            animation: slideIn 0.5s ease-out;
+            transition: all 0.3s ease;
+        }
+        
+        .intel-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
         }
         .intel-item.critical { border-left-color: #ff4444; }
         .intel-item.high { border-left-color: #ff9944; }
@@ -339,45 +361,45 @@ def serve(port):
                 const discoveries = [
                     {
                         head: 'PriceWatch 👁️',
-                        competitor: 'competitor.com',
-                        discovery: 'ALERT: Competitor dropped premium tier pricing by 30% - aggressive market grab detected',
+                        competitor: 'enterprise-rival.com',
+                        discovery: 'ALERT: Competitor raised $50M Series B - aggressive expansion coming',
                         threat: 'critical',
                         confidence: '95%'
                     },
                     {
-                        head: 'JobSpy 🎯',
-                        competitor: 'rival-corp.com',
-                        discovery: 'Hiring 15 senior engineers and 3 VPs - major expansion or new product launch imminent',
+                        head: 'TechRadar 📡',
+                        competitor: 'techcorp.io',
+                        discovery: 'Detected React → Vue migration - 6 month vulnerability window',
                         threat: 'high',
                         confidence: '88%'
                     },
                     {
-                        head: 'TechRadar 📡',
-                        competitor: 'techcorp.io',
-                        discovery: 'Migrated to Kubernetes and adopted microservices - scaling for enterprise customers',
-                        threat: 'medium',
+                        head: 'PriceWatch 👁️',
+                        competitor: 'market-leader.com',
+                        discovery: 'Price slashing on enterprise tier - targeting our top accounts',
+                        threat: 'critical',
                         confidence: '92%'
                     },
                     {
-                        head: 'SocialPulse 💭',
+                        head: 'JobSpy 🎯',
                         competitor: 'startup.ai',
-                        discovery: 'Sentiment turned negative after recent update - opportunity to capture dissatisfied users',
-                        threat: 'low',
-                        confidence: '76%'
+                        discovery: 'Hiring freeze lifted - 47 new positions posted this week',
+                        threat: 'high',
+                        confidence: '91%'
                     },
                     {
                         head: 'PatentHawk 📋',
                         competitor: 'innovate.com',
-                        discovery: 'Filed 3 new ML patents in computer vision - pivoting to AI-first approach',
+                        discovery: 'New patent filed for ML-based recommendation engine',
                         threat: 'medium',
                         confidence: '99%'
                     },
                     {
                         head: 'AdTracker 📊',
-                        competitor: 'market-leader.com',
-                        discovery: 'Increased ad spend 300% on keywords: "enterprise", "security" - B2B pivot confirmed',
+                        competitor: 'competitor.com',
+                        discovery: 'Ad spend increased 400% on our primary keywords',
                         threat: 'high',
-                        confidence: '91%'
+                        confidence: '94%'
                     }
                 ];
                 
