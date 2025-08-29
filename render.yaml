@@ -8,7 +8,7 @@ services:
     startCommand: "python hydra.py serve"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.9.12
+        value: 3.11.7
       - key: PORT
         value: 8000
     autoDeploy: true
