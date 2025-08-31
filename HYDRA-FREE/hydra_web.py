@@ -68,15 +68,32 @@ HTML_TEMPLATE = """
         button:hover {
             transform: scale(1.05);
         }
-        input, select {
+        input {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
             border-radius: 5px;
             border: none;
-            background: rgba(255,255,255,0.2);
-            color: white;
+            background: rgba(255,255,255,0.9);
+            color: #333;
             font-size: 1em;
+        }
+        
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+            background: rgba(255,255,255,0.9);
+            color: #333;
+            font-size: 1em;
+        }
+        
+        select option {
+            background: white;
+            color: #333;
+            padding: 8px;
         }
         input::placeholder {
             color: rgba(255,255,255,0.7);
